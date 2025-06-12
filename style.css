@@ -9,7 +9,7 @@ body {
     color: #333;
 }
 header {
-    background: #333;
+    background: #1a3c34;
     padding: 10px 0;
 }
 nav ul {
@@ -29,18 +29,56 @@ nav ul li a:hover {
     color: #ddd;
 }
 main {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 20px auto;
     padding: 0 20px;
 }
 h1 {
     margin-bottom: 20px;
+    text-align: center;
 }
-p, ul {
-    margin-bottom: 15px;
+.properties {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.property {
+    flex: 1 1 300px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+.property img {
+    max-width: 100%;
+    height: auto;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto 20px;
+}
+form label {
+    display: flex;
+    flex-direction: column;
+}
+form input, form textarea {
+    padding: 8px;
+    margin-top: 5px;
+}
+form button {
+    padding: 10px;
+    background: #1a3c34;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+form button:hover {
+    background: #2e5c52;
 }
 footer {
-    background: #333;
+    background: #1a3c34;
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -55,5 +93,8 @@ footer {
     }
     nav ul li {
         margin: 10px 0;
+    }
+    .properties {
+        flex-direction: column;
     }
 }
