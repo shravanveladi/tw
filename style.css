@@ -9,7 +9,7 @@ body {
     color: #333;
 }
 header {
-    background: #1a3c34;
+    background: #2c3e50;
     padding: 10px 0;
 }
 nav ul {
@@ -26,7 +26,7 @@ nav ul li a {
     font-weight: bold;
 }
 nav ul li a:hover {
-    color: #ddd;
+    color: #bdc3c7;
 }
 main {
     max-width: 1000px;
@@ -37,20 +37,16 @@ h1 {
     margin-bottom: 20px;
     text-align: center;
 }
-.properties {
+.features {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
 }
-.property {
+.feature {
     flex: 1 1 300px;
     border: 1px solid #ddd;
     padding: 10px;
     text-align: center;
-}
-.property img {
-    max-width: 100%;
-    height: auto;
 }
 form {
     display: flex;
@@ -69,16 +65,16 @@ form input, form textarea {
 }
 form button {
     padding: 10px;
-    background: #1a3c34;
+    background: #2c3e50;
     color: white;
     border: none;
     cursor: pointer;
 }
 form button:hover {
-    background: #2e5c52;
+    background: #34495e;
 }
 footer {
-    background: #1a3c34;
+    background: #2c3e50;
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -94,7 +90,7 @@ footer {
     nav ul li {
         margin: 10px 0;
     }
-    .properties {
+    .features {
         flex-direction: column;
     }
 }
